@@ -1,0 +1,18 @@
+<ion-content scroll="false">
+
+
+  <div class="slideImg">
+    <ion-slides  #mySlider (ionSlidesDidLoad)="slidesDidLoad(mySlider)" pager="true" [options]="slideOpts">
+      <ion-slide>
+        <ion-card-content>
+          <img src = "assets/logo.png"/>
+        </ion-card-content>
+      </ion-slide>
+      <ion-slide>
+        <ion-card-content>
+          <img src = "assets/pic.png"/>
+        </ion-card-content>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>
