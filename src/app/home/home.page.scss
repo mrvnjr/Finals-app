@@ -19,7 +19,8 @@ ion-header ion-toolbar{
     height: 45px;
     margin-right: 10px;
     float: right;
-  } ion-content{
+  } 
+ion-content{
     --ion-background-color:#fafff4;
 }
 ion-list {
@@ -34,10 +35,15 @@ ion-list {
   }
 
 
-  .important-form ion-card {
-    background-color: #fafff4;
-    margin-top: 1px;
+  .important-form {
+    justify-content: center;
+    text-align: center;
 
+  }
+  .important-form ion-card {
+    background-color: #f6f6f6;
+    margin-top: 1px;
+  
   }
   .important-form ion-card h1 {
 
@@ -51,7 +57,27 @@ ion-list {
     line-height: 1;
   }
 
-  .important-form on-card-content {
+  on-content on-card-content {
     align-items: center;
     text-align: center;
+    font-size: 30px;
   }
+
+.foodContent ion-card {
+    background-color: #f6f6f6;
+    margin-top: 1px;
+  }
+
+.foodContent ion-card-header {
+  font-size: 2em;
+  color: #6ea833;
+}
+
+.foodContent ion-card-content {
+    text-align: justify;
+}
+
+.foodContent ion-card-title {
+    margin-left: 15px;
+    color: #6ea833;
+}
