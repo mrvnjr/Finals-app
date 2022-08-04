@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="ion-title">
+      <h3>Meal Plan</h3>
+    </div>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<app-plandays  [item]="mealplan" (clicked)="goToInfoPage(mealplan.days)"></app-plandays>
+
+</ion-content>

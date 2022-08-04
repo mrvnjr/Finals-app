@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { VegetablePageRoutingModule } from './vegetable-routing.module';
+import { HealthymealsPageRoutingModule } from './healthymeals-routing.module';
 
-import { VegetablePage } from './vegetable.page';
+import { HealthymealsPage } from './healthymeals.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VegetablePageRoutingModule
+    HealthymealsPageRoutingModule
   ],
-  declarations: [VegetablePage]
+  declarations: [HealthymealsPage]
 })
-export class VegetablePageModule {}
+export class HealthymealsPageModule {}

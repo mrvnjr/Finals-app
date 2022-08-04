@@ -20,17 +20,17 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
-    path: 'vegetable',
-    loadChildren: () => import('./vegetable/vegetable.module').then( m => m.VegetablePageModule)
+    path: 'healthymeals',
+    loadChildren: () => import('./healthymeals/healthymeals.module').then( m => m.HealthymealsPageModule)
   },
   {
-    path: 'fruits',
-    loadChildren: () => import('./fruits/fruits.module').then( m => m.FruitsPageModule)
+    path: 'info/:plandays',
+    loadChildren: () => import('./plandays/info/info.module').then( m => m.InfoPageModule)
   },
-  {
-    path: 'diet',
-    loadChildren: () => import('./diet/diet.module').then( m => m.DietPageModule)
-  }
+  
+
+
+
 
 
 

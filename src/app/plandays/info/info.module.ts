@@ -1,20 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
-import { DietPageRoutingModule } from './diet-routing.module';
-
-import { DietPage } from './diet.page';
+import { InfoPageRoutingModule } from './info-routing.module';
+import { InfoPage } from './info.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DietPageRoutingModule
+    InfoPageRoutingModule
   ],
-  declarations: [DietPage]
+  declarations: [InfoPage]
 })
-export class DietPageModule {}
+export class InfoPageModule {}
