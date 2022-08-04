@@ -5,7 +5,6 @@ ion-header ion-toolbar{
   .ion-title {
     color: rgb(255, 255, 255);
     display: inline-block;
-
     height: auto;
   }
   .ion-title, h3 {
@@ -32,4 +31,27 @@ ion-list {
     font-weight: 600;
     font-family: 'Arial';
     margin-left: 25px;
+  }
+
+
+  .important-form ion-card {
+    background-color: #fafff4;
+    margin-top: 1px;
+
+  }
+  .important-form ion-card h1 {
+
+    color: #6ea833;
+    align-items: center;
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 600;
+    font-family: 'Arial';
+    margin-left: 25px;
+    line-height: 1;
+  }
+
+  .important-form on-card-content {
+    align-items: center;
+    text-align: center;
   }
