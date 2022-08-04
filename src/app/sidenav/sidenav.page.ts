@@ -17,17 +17,13 @@ export class SidenavPage implements OnInit {
       icon: 'home'
     },
     {
-      name: 'Diet',
-      link: '/nav/diet',
-      icon: 'home'
+      name: 'Meal Plan',
+      link: '/nav/mealplan',
+      icon: 'leaf'
     },
     {
-      name: 'Fruits',
-      link: '/nav/home',
-      icon: 'home'
-    },{
-      name: 'Vegies',
-      link: '/nav/vegies',
+      name: 'Healthy Meals',
+      link: '/nav/healthymeals',
       icon: 'home'
     }
     

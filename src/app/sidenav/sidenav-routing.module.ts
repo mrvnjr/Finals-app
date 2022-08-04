@@ -13,20 +13,12 @@ const routes: Routes = [
         loadChildren: () => import('../home/home.module').then( m => m.HomePageModule)
       },
       {
-        path: 'home',
-        loadChildren: () => import('../home/home.module').then( m => m.HomePageModule)
+        path: 'healthymeals',
+        loadChildren: () => import('../healthymeals/healthymeals.module').then( m => m.HealthymealsPageModule)
       },
       {
-        path: 'vegetable',
-        loadChildren: () => import('../vegetable/vegetable.module').then( m => m.VegetablePageModule)
-      },
-      {
-        path: 'fruits',
-        loadChildren: () => import('../fruits/fruits.module').then( m => m.FruitsPageModule)
-      },
-      {
-        path: 'diet',
-        loadChildren: () => import('../diet/diet.module').then( m => m.DietPageModule)
+        path: 'mealplan',
+        loadChildren: () => import('../mealplan/mealplan.module').then( m => m.MealplanPageModule)
       }
       
       /*
